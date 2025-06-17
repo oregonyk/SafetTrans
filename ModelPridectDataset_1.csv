@@ -1,0 +1,3 @@
+max_rpm,dampRateFullT,dampRateZero_CE,dampRateZero_CD,gearSwitchTime,clutchStrength,mass,dragCoeff,tireFric,dampRate,radius,maxBrakeTorque,SaftyDegree,TET,TIT,acc,TLCT,ALCJ,JerkAVG,yaw
+max_rpm,dampRateFullT,dampRateZero_CE,dampRateZero_CD,gearSwitchTime,clutchStrength,mass,dragCoeff,tireFric,dampRate,radius,maxBrakeTorque,SaftyDegree,TET,TIT,acc,TLCT,ALCJ,JerkAVG,yaw
+max_rpm,dampRateFullT,dampRateZero_CE,dampRateZero_CD,gearSwitchTime,clutchStrength,mass,dragCoeff,tireFric,dampRate,radius,maxBrakeTorque,SaftyDegree,TET,TIT,acc,TLCT,ALCJ,JerkAVG,yaw

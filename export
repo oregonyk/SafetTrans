@@ -1,0 +1,13 @@
+export CARLA_ROOT=/home/yko/carla1/CARLA_0.9.10.tar.gz
+export LEADERBOARD_ROOT=/home/yko/carla1/WorldOnRails-release/leaderboard
+export SCENARIO_RUNNER_ROOT=/home/yko/carla1/WorldOnRails-release/scenario_runner
+export PYTHONPATH="${CARLA_ROOT}/PythonAPI/carla/":"${SCENARIO_RUNNER_ROOT}":"${LEADERBOARD_ROOT}"
+
+
+ pkill -9 python
+
+python evaluate.py
+
+python evaluate_nocrash.py --town=Town01 --weather=train --resume
+
+./CarlaUE4.sh -quality-level=Low -vulkan
